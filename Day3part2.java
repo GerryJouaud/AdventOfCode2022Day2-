@@ -13,8 +13,8 @@ public class Day3 {
 		int total = 0;
 		int compteurLigne = 0;
 		Set<Character> sac1 = new HashSet<>(); // création de trois ensembles qui permettront de comparer leurs
-												// caractères
-		// les lettres
+						      // caractères ( hashet car on ne veut pas de doublons, et on ne souhaite pas d'ordre particulier)
+		
 		Set<Character> sac2 = new HashSet<>();
 
 		Set<Character> sac3 = new HashSet<>();
