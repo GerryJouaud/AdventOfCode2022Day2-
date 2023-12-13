@@ -21,7 +21,7 @@ public class Day3 {
 			String partie2 = ligne.substring(diviseur);
 
 			Set<Character> compartiment1 = new HashSet<>(); // création de deux ensembles qui permettront de comparer
-									// les lettres ( hashet car on ne veut pas de doublons, et on ne souhaite pas d'ordre particulier)
+									// les lettres, on cherche l'intersection ( hashet car on ne veut pas de doublons, et on ne souhaite pas d'ordre particulier)
 			Set<Character> compartiment2 = new HashSet<>();
 
 			for (char c : partie1.toCharArray()) { // ajoute chaque caractère au compartiment 1
